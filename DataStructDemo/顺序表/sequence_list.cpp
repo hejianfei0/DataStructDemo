@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "sequence_list.h"
 
 

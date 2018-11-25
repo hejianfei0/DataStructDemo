@@ -16,6 +16,12 @@
     <Filter Include="顺序表">
       <UniqueIdentifier>{dcdcce07-1066-40e0-939f-e905edbf3d35}</UniqueIdentifier>
     </Filter>
+    <Filter Include="单链表">
+      <UniqueIdentifier>{41bd951a-9365-48c5-81fb-b3324a6db829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="双链表">
+      <UniqueIdentifier>{4d71a6fd-ee8d-40de-9e63-d50c5a77086c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -33,6 +39,12 @@
     <ClInclude Include="顺序表\sequence_list_manager.h">
       <Filter>顺序表</Filter>
     </ClInclude>
+    <ClInclude Include="单链表\single_list.h">
+      <Filter>单链表</Filter>
+    </ClInclude>
+    <ClInclude Include="slist_controller.h">
+      <Filter>单链表</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -46,6 +58,12 @@
     </ClCompile>
     <ClCompile Include="顺序表\sequence_list_manager.cpp">
       <Filter>顺序表</Filter>
+    </ClCompile>
+    <ClCompile Include="单链表\single_list.cpp">
+      <Filter>单链表</Filter>
+    </ClCompile>
+    <ClCompile Include="slist_controller.cpp">
+      <Filter>单链表</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

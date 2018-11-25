@@ -2,10 +2,13 @@
 //
 
 #include "stdafx.h"
+#include "slist_controller.h"
 
 
 int main()
 {
+	SlistController sc;
+	sc.test();
     return 0;
 }
 

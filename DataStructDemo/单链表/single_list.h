@@ -4,7 +4,7 @@ template<typename T>
 struct  SNode
 {
 	T data;
-	SNode* next;
+	SNode<T>* next;
 };
 
 template<typename T>
@@ -13,7 +13,7 @@ public:
 	SingleList();
 	~SingleList();
 	void initList();
-
+	SNode<T>* GetNewNode(T t);
 	//bool push_back(T data); 
 	//bool push_front(T data);
 	//void show_list();
@@ -30,8 +30,8 @@ public:
 
 
 private:
-	SNode * first_;
-	SNode* last_;
+	SNode<T> * first_;
+	SNode<T>* last_;
 	int size;
 
 };

@@ -7,8 +7,5 @@ public:
 	SlistController();
 	~SlistController();
 	void test();
-
-private:
-
 };
 
